@@ -37,7 +37,7 @@ namespace Hub_Exercicios
                     this.Hide();
                     break;
             }
-        }
+        } 
 
         private void Form1_Load(object sender, EventArgs e)
         { }
