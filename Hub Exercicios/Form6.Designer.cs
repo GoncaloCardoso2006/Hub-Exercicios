@@ -34,6 +34,7 @@
             button1 = new Button();
             button2 = new Button();
             textBox3 = new TextBox();
+            button3 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -89,11 +90,22 @@
             textBox3.TabIndex = 5;
             textBox3.TextChanged += textBox3_TextChanged;
             // 
+            // button3
+            // 
+            button3.Location = new Point(280, 273);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 6;
+            button3.Text = "Voltar";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Form6
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(367, 308);
+            Controls.Add(button3);
             Controls.Add(textBox3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -115,5 +127,6 @@
         private Button button1;
         private Button button2;
         private TextBox textBox3;
+        private Button button3;
     }
 }

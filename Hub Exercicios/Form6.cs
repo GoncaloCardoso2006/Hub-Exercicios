@@ -47,5 +47,12 @@ namespace Hub_Exercicios
 
             textBox3.Text = nome1 + " " + nome2;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 frm_1 = new Form1();
+            frm_1.Show();
+            this.Close();
+        }
     }
 }
