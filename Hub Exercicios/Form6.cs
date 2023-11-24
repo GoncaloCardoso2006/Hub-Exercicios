@@ -21,5 +21,31 @@ namespace Hub_Exercicios
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        { }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        { }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        { }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nome1 = textBox1.Text;
+            string nome2 = textBox2.Text;
+
+            textBox1.Text = nome2;
+            textBox2.Text = nome1;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string nome1 = textBox1.Text;
+            string nome2 = textBox2.Text;
+
+            textBox3.Text = nome1 + " " + nome2;
+        }
     }
 }

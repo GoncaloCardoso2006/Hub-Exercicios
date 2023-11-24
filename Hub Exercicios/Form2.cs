@@ -29,13 +29,20 @@ namespace Hub_Exercicios
         {
             if (checkBox1.Checked)
                 textBox1.Text = "Bem vindo ao C#!";
-            else 
+            else
                 textBox1.Text = "Não Aceitou";
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 frm_1 = new Form1();
+            frm_1.Show();
+            this.Close();
         }
     }
 }

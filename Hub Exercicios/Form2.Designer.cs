@@ -31,6 +31,7 @@
             textBox1 = new TextBox();
             checkBox1 = new CheckBox();
             button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -62,12 +63,23 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.Location = new Point(254, 226);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 3;
+            button2.Text = "Voltar";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 128, 0);
             ClientSize = new Size(341, 261);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(checkBox1);
             Controls.Add(textBox1);
@@ -83,5 +95,6 @@
         private TextBox textBox1;
         private CheckBox checkBox1;
         private Button button1;
+        private Button button2;
     }
 }
