@@ -25,7 +25,7 @@ namespace Hub_Exercicios
 
         private void textBox1_MouseHover(object sender, EventArgs e)
         {
-            textBox1.Text = "Passou-me com o mouse por cima";
+            textBox1.Text = "Passou-me com o rato por cima";
         }
 
         private void textBox1_MouseLeave(object sender, EventArgs e)
