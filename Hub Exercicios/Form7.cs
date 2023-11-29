@@ -36,7 +36,7 @@ namespace Hub_Exercicios
         {
             textBox1.Text = "";
             textBox2.Text = "";
-            textBox3.Text = ""; 
+            textBox3.Text = "";
             listBox1.Items.Clear();
         }
 
@@ -46,6 +46,11 @@ namespace Hub_Exercicios
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
