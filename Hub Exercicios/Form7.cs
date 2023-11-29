@@ -54,5 +54,17 @@ namespace Hub_Exercicios
         {
 
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 frm_1 = new Form1();
+            frm_1.Show();
+            this.Close();
+        }
     }
 }

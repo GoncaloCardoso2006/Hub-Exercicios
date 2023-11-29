@@ -41,6 +41,11 @@ namespace Hub_Exercicios
                     frm_7.Show();
                     this.Hide();
                     break;
+                case 6:
+                    Form8 frm_8 = new Form8();
+                    frm_8.Show();
+                    this.Hide();
+                    break;
             }
         }
 

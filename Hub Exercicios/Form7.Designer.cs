@@ -37,6 +37,7 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            button3 = new Button();
             SuspendLayout();
             // 
             // listBox1
@@ -90,6 +91,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(130, 23);
             textBox3.TabIndex = 5;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // label1
             // 
@@ -118,11 +120,22 @@
             label3.TabIndex = 8;
             label3.Text = "Altura";
             // 
+            // button3
+            // 
+            button3.Location = new Point(261, 288);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 9;
+            button3.Text = "Voltar";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Form7
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(348, 323);
+            Controls.Add(button3);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -150,5 +163,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Button button3;
     }
 }
