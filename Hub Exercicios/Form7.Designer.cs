@@ -74,6 +74,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(130, 23);
             textBox1.TabIndex = 3;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -132,6 +133,7 @@
             Controls.Add(listBox1);
             Name = "Form7";
             Text = "Ex6";
+            Load += Form7_Load;
             ResumeLayout(false);
             PerformLayout();
         }

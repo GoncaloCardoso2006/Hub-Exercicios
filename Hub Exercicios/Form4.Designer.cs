@@ -131,6 +131,7 @@
             Controls.Add(label1);
             Name = "Form4";
             Text = "Ex3";
+            Load += Form4_Load;
             ResumeLayout(false);
             PerformLayout();
         }

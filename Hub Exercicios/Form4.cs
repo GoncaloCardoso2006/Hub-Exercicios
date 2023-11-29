@@ -55,5 +55,10 @@ namespace Hub_Exercicios
             frm_1.Show();
             this.Close();
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

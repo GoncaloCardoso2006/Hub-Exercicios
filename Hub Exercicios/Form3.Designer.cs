@@ -111,6 +111,7 @@
             Controls.Add(button1);
             Name = "Form3";
             Text = "Ex2";
+            Load += Form3_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

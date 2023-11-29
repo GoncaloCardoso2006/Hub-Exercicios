@@ -36,8 +36,18 @@ namespace Hub_Exercicios
         {
             textBox1.Text = "";
             textBox2.Text = "";
-            textBox3.Text = "";
+            textBox3.Text = ""; 
             listBox1.Items.Clear();
+        }
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
