@@ -30,6 +30,7 @@
         {
             button1 = new Button();
             comboBox1 = new ComboBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -52,12 +53,23 @@
             comboBox1.TabIndex = 1;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
+            // button2
+            // 
+            button2.Location = new Point(237, 277);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 2;
+            button2.Text = "Fechar";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(324, 312);
+            Controls.Add(button2);
             Controls.Add(comboBox1);
             Controls.Add(button1);
             Name = "Form1";
@@ -70,5 +82,6 @@
 
         private Button button1;
         private ComboBox comboBox1;
+        private Button button2;
     }
 }

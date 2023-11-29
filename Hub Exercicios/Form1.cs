@@ -46,5 +46,14 @@ namespace Hub_Exercicios
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var fecharform = Application.OpenForms.Cast<Form>().ToList();
+            foreach (Form frm in fecharform)
+            {
+                frm.Close();
+            }
+        }
     }
 }
