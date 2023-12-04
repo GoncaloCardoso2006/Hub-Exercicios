@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Hub_Exercicios
 {
-    public partial class Form8 : Form
+    public partial class Form9 : Form
     {
-        public Form8()
+        public Form9()
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form1 frm_1 = new Form1();
-            frm_1.Show();
-            this.Close();
-        }
-
-        private void Form8_Load(object sender, EventArgs e)
-        {}
     }
 }

@@ -1,14 +1,14 @@
 ﻿namespace Hub_Exercicios
 {
-    partial class Form1
+    partial class Form16
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,65 +23,73 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
             button1 = new Button();
-            comboBox1 = new ComboBox();
+            label1 = new Label();
+            textBox1 = new TextBox();
             button2 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(115, 159);
+            button1.Location = new Point(360, 304);
             button1.Name = "button1";
-            button1.Size = new Size(92, 30);
+            button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
-            button1.Text = "Abrir";
+            button1.Text = "Voltar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // comboBox1
+            // label1
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Ex 1", "Ex 2", "Ex 3", "Ex 4", "Ex 5", "Ex 6", "Ex 7", "Ex 8", "Ex 9", "Ex 10", "Ex 11", "Ex 12", "Ex 13", "Ex 14" });
-            comboBox1.Location = new Point(101, 111);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 1;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            label1.AutoSize = true;
+            label1.Location = new Point(65, 66);
+            label1.Name = "label1";
+            label1.Size = new Size(172, 15);
+            label1.TabIndex = 2;
+            label1.Text = "Introduza um valor para somar:";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(243, 63);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(136, 23);
+            textBox1.TabIndex = 3;
             // 
             // button2
             // 
-            button2.Location = new Point(237, 277);
+            button2.Location = new Point(243, 149);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 2;
-            button2.Text = "Fechar";
+            button2.Size = new Size(109, 45);
+            button2.TabIndex = 4;
+            button2.Text = "Resultado";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // Form1
+            // Form16
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaptionText;
-            ClientSize = new Size(324, 312);
+            ClientSize = new Size(447, 339);
             Controls.Add(button2);
-            Controls.Add(comboBox1);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
             Controls.Add(button1);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
+            Name = "Form16";
+            Text = "Form16";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
-        private ComboBox comboBox1;
+        private Label label1;
+        private TextBox textBox1;
         private Button button2;
     }
 }

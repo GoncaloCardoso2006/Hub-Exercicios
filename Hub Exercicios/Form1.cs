@@ -46,6 +46,41 @@ namespace Hub_Exercicios
                     frm_8.Show();
                     this.Hide();
                     break;
+                case 7:
+                    Form9 frm_9 = new Form9();
+                    frm_9.Show();
+                    this.Hide();
+                    break;
+                case 8:
+                    Form10 frm_10 = new Form10();
+                    frm_10.Show();
+                    this.Hide();
+                    break;
+                case 9:
+                    Form11 frm_11 = new Form11();
+                    frm_11.Show();
+                    this.Hide();
+                    break;
+                case 10:
+                    Form12 frm12 = new Form12();
+                    frm12.Show();
+                    this.Hide();
+                    break;
+                case 11:
+                    Form13 frm13 = new Form13();
+                    frm13.Show();
+                    this.Hide();
+                    break;
+                case 12:
+                    Form14 frm14 = new Form14();
+                    frm14.Show();
+                    this.Hide();
+                    break;
+                case 13:
+                    Form15 frm15 = new Form15();
+                    frm15.Show();
+                    this.Hide();
+                    break;
             }
         }
 
@@ -59,11 +94,7 @@ namespace Hub_Exercicios
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var fecharform = Application.OpenForms.Cast<Form>().ToList();
-            foreach (Form frm in fecharform)
-            {
-                frm.Close();
-            }
+            FecharTudo.FecharFormularios();
         }
     }
 }
