@@ -47,6 +47,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.ForeColor = SystemColors.Control;
             label1.Location = new Point(59, 86);
             label1.Name = "label1";
             label1.Size = new Size(254, 15);
@@ -56,6 +57,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.ForeColor = SystemColors.Control;
             label2.Location = new Point(24, 111);
             label2.Name = "label2";
             label2.Size = new Size(319, 15);
@@ -76,6 +78,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(366, 324);
             Controls.Add(button2);
             Controls.Add(label2);

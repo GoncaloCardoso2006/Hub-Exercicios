@@ -40,6 +40,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.ForeColor = SystemColors.Control;
             label1.Location = new Point(66, 26);
             label1.Name = "label1";
             label1.Size = new Size(212, 15);
@@ -100,10 +101,11 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
-            // Form6
+            // Ex5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(367, 308);
             Controls.Add(button3);
             Controls.Add(textBox3);
@@ -112,7 +114,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label1);
-            Name = "Form6";
+            Name = "Ex5";
             Text = "Ex5";
             Load += Form6_Load;
             ResumeLayout(false);

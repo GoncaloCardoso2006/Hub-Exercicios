@@ -96,6 +96,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.ForeColor = SystemColors.Control;
             label1.Location = new Point(21, 22);
             label1.Name = "label1";
             label1.Size = new Size(82, 15);
@@ -105,6 +106,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.ForeColor = SystemColors.Control;
             label2.Location = new Point(21, 51);
             label2.Name = "label2";
             label2.Size = new Size(47, 15);
@@ -114,6 +116,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.ForeColor = SystemColors.Control;
             label3.Location = new Point(21, 80);
             label3.Name = "label3";
             label3.Size = new Size(39, 15);
@@ -130,10 +133,11 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
-            // Form7
+            // Ex6
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(348, 323);
             Controls.Add(button3);
             Controls.Add(label3);
@@ -145,7 +149,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(listBox1);
-            Name = "Form7";
+            Name = "Ex6";
             Text = "Ex6";
             Load += Form7_Load;
             ResumeLayout(false);

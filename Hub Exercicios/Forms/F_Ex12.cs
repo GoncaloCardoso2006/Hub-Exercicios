@@ -16,5 +16,15 @@ namespace Hub_Exercicios
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        { }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hub frm_1 = new Hub();
+            frm_1.Show();
+            this.Close();
+        }
     }
 }

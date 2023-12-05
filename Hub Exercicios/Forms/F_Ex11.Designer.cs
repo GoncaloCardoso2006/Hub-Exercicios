@@ -48,6 +48,7 @@
             // formatarToolStripMenuItem
             // 
             formatarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { corETipoDeLetraToolStripMenuItem });
+            formatarToolStripMenuItem.ForeColor = SystemColors.ActiveCaptionText;
             formatarToolStripMenuItem.Name = "formatarToolStripMenuItem";
             formatarToolStripMenuItem.Size = new Size(67, 20);
             formatarToolStripMenuItem.Text = "Formatar";
@@ -84,6 +85,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(320, 183);
             Controls.Add(button1);
             Controls.Add(label1);

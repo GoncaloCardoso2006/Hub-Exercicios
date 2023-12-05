@@ -52,14 +52,15 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // Form5
+            // Ex4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(347, 224);
             Controls.Add(button1);
             Controls.Add(textBox1);
-            Name = "Form5";
+            Name = "Ex4";
             Text = "Ex4";
             Load += Form5_Load;
             ResumeLayout(false);

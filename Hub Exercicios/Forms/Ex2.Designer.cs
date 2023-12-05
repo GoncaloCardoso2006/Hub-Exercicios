@@ -75,6 +75,7 @@
             // 
             groupBox1.Controls.Add(radioButton1);
             groupBox1.Controls.Add(radioButton2);
+            groupBox1.ForeColor = SystemColors.Control;
             groupBox1.Location = new Point(174, 32);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(184, 85);
@@ -100,16 +101,17 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // Form3
+            // Ex2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(394, 215);
             Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(groupBox1);
             Controls.Add(button1);
-            Name = "Form3";
+            Name = "Ex2";
             Text = "Ex2";
             Load += Form3_Load;
             groupBox1.ResumeLayout(false);

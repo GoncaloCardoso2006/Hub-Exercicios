@@ -45,6 +45,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
+            checkBox1.ForeColor = SystemColors.Control;
             checkBox1.Location = new Point(55, 130);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(118, 19);
@@ -73,17 +74,17 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // Form2
+            // Ex1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(255, 128, 0);
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(341, 261);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(checkBox1);
             Controls.Add(textBox1);
-            Name = "Form2";
+            Name = "Ex1";
             Text = "Ex1";
             Load += Form2_Load;
             ResumeLayout(false);

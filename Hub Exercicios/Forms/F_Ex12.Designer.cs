@@ -28,12 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form13";
+            button1 = new Button();
+            label1 = new Label();
+            SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(334, 301);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "Voltar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.ForeColor = SystemColors.ControlLightLight;
+            label1.Location = new Point(175, 153);
+            label1.Name = "label1";
+            label1.Size = new Size(74, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Manutenção";
+            label1.Click += label1_Click;
+            // 
+            // F_Ex12
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
+            ClientSize = new Size(421, 336);
+            Controls.Add(label1);
+            Controls.Add(button1);
+            Name = "F_Ex12";
+            Text = "Ex12";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Button button1;
+        private Label label1;
     }
 }
