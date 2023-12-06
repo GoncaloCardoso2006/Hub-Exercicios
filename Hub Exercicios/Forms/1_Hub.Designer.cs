@@ -46,7 +46,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Ex 1", "Ex 2", "Ex 3", "Ex 4", "Ex 5", "Ex 6", "Ex 7", "Ex 8", "Ex 9", "Ex 10", "Ex 11", "Ex 12", "Ex 13", "Ex 14" });
+            comboBox1.Items.AddRange(new object[] { "Ex 1", "Ex 2", "Ex 3", "Ex 4", "Ex 5", "Ex 6", "Ex 7", "Ex 8", "Ex 9", "Ex 10", "Ex 11", "Ex 12", "Ex 14" });
             comboBox1.Location = new Point(101, 111);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
@@ -72,7 +72,9 @@
             Controls.Add(button2);
             Controls.Add(comboBox1);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Hub";
+            RightToLeft = RightToLeft.No;
             Text = "HUB";
             Load += Form1_Load;
             ResumeLayout(false);

@@ -44,6 +44,7 @@
             menuStrip1.Size = new Size(320, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
             // formatarToolStripMenuItem
             // 

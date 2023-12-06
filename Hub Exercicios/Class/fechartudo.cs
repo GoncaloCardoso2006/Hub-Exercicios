@@ -10,10 +10,9 @@ namespace Hub_Exercicios.Class
     {
         internal static void FecharFormularios()
         {
-            var fecharForm = Application.OpenForms.Cast<Form>().ToList();
-            foreach (Form frm in fecharForm)
+            foreach (Form formaberto in Application.OpenForms)
             {
-                frm.Close();
+                formaberto.Close();
             }
         }
     }

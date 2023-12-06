@@ -25,7 +25,7 @@ namespace Hub_Exercicios
         }
 
         private void formatarToolStripMenuItem_Click(object sender, EventArgs e)
-        {}
+        { }
 
         private void corETipoDeLetraToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -40,5 +40,8 @@ namespace Hub_Exercicios
                 label1.Font = letra.Font;
             }
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {}
     }
 }

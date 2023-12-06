@@ -74,11 +74,6 @@ namespace Hub_Exercicios
                     this.Hide();
                     break;
                 case 12:
-                    F_Ex13 frm14 = new F_Ex13();
-                    frm14.Show();
-                    this.Hide();
-                    break;
-                case 13:
                     F_Ex14 frm15 = new F_Ex14();
                     frm15.Show();
                     this.Hide();
