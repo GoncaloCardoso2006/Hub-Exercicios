@@ -10,4 +10,6 @@ namespace Hub_Exercicios.Class
     {
         public static int resultado;
     }
+
+   
 }

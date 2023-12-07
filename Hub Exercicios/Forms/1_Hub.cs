@@ -78,6 +78,11 @@ namespace Hub_Exercicios
                     frm15.Show();
                     this.Hide();
                     break;
+                case 13:
+                    F_Ex16 frm17 = new F_Ex16();
+                    frm17.Show();
+                    this.Hide();
+                    break;
             }
         }
 
@@ -89,7 +94,6 @@ namespace Hub_Exercicios
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FecharTudo.FecharFormularios();
-        }
+            FecharTudo.FecharFormularios();        }
     }
 }

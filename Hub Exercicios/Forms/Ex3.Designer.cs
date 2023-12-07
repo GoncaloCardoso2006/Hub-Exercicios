@@ -47,6 +47,7 @@
             label1.Size = new Size(91, 15);
             label1.TabIndex = 0;
             label1.Text = "Isto é um rótulo";
+            label1.Click += label1_Click;
             // 
             // textBox1
             // 

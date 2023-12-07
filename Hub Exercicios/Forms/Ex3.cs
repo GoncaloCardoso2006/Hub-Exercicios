@@ -45,7 +45,7 @@ namespace Hub_Exercicios
 
         private void button5_Click(object sender, EventArgs e)
         {
-            BackColor = default(Color);
+            BackColor = Color.Black;
             textBox1.ForeColor = default(Color);
         }
 
@@ -57,6 +57,11 @@ namespace Hub_Exercicios
         }
 
         private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
