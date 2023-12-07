@@ -51,7 +51,7 @@ namespace Hub_Exercicios
             else
             {
                 textBox3.PasswordChar = '*';
-            }
+            } 
         }
     }
 }
