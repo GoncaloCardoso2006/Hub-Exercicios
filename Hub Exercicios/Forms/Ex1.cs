@@ -15,6 +15,8 @@ namespace Hub_Exercicios
         public Ex1()
         {
             InitializeComponent();
+            
+
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -43,6 +45,11 @@ namespace Hub_Exercicios
             Hub frm_1 = new Hub();
             frm_1.Show();
             this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

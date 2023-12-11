@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Hub_Exercicios.Class
 {
-    static class Class_VG
+    static class Utilizador
     {
-        public static int resultado;
+        public static string nome;
+        public static string passe;
+        public static string email;
     }
 }
