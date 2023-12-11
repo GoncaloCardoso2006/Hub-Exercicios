@@ -28,7 +28,7 @@ namespace Hub_Exercicios
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Utilizador.nome = "Utilizador : " + textBox1.Text;
+            Utilizador.nome = "Utilizador : " + textBox1.Text; 
             label4.Text = Utilizador.nome;
             MessageBox.Show("Dados iseridos foram guardados com sucesso! :)");
         }
