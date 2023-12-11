@@ -31,6 +31,9 @@ namespace Hub_Exercicios
             Utilizador.nome = "Utilizador : " + textBox1.Text; 
             label4.Text = Utilizador.nome;
             MessageBox.Show("Dados iseridos foram guardados com sucesso! :)");
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
