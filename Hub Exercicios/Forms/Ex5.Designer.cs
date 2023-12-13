@@ -111,6 +111,7 @@
             label2.Size = new Size(114, 15);
             label2.TabIndex = 7;
             label2.Text = "Sem sessão iniciada!";
+            label2.Click += label2_Click;
             // 
             // Ex5
             // 

@@ -84,6 +84,7 @@
             label3.Size = new Size(114, 15);
             label3.TabIndex = 5;
             label3.Text = "Sem sessão iniciada!";
+            label3.Click += label3_Click;
             // 
             // F_Ex10
             // 

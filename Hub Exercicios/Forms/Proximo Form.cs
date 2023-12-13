@@ -34,7 +34,7 @@ namespace Hub_Exercicios
 
         private void Form16_Load(object sender, EventArgs e)
         {
-            label1.Text = Utilizador.nome;
+            label2.Text = Utilizador.nome;
         }
     }
 }

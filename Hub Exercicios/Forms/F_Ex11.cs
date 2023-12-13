@@ -47,7 +47,12 @@ namespace Hub_Exercicios
 
         private void F_Ex11_Load(object sender, EventArgs e)
         {
-            label1.Text = Utilizador.nome;
+            label2.Text = Utilizador.nome;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

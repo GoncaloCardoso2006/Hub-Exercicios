@@ -43,7 +43,7 @@ namespace Hub_Exercicios
 
         private void Form7_Load(object sender, EventArgs e)
         {
-            label1.Text = Utilizador.nome;
+            label4.Text = Utilizador.nome;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

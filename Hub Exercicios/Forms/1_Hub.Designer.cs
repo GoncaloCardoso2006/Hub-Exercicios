@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hub));
             button1 = new Button();
             comboBox1 = new ComboBox();
             button2 = new Button();
             label1 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -74,12 +77,26 @@
             label1.TabIndex = 5;
             label1.Text = "Sem sessão iniciada!";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = SystemColors.Desktop;
+            pictureBox1.BackgroundImageLayout = ImageLayout.None;
+            pictureBox1.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(227, 5);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(94, 104);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
+            // 
             // Hub
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(324, 312);
+            Controls.Add(pictureBox1);
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(comboBox1);
@@ -89,6 +106,7 @@
             RightToLeft = RightToLeft.No;
             Text = "HUB";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -99,5 +117,6 @@
         private ComboBox comboBox1;
         private Button button2;
         private Label label1;
+        private PictureBox pictureBox1;
     }
 }

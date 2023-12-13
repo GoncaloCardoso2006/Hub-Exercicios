@@ -27,7 +27,7 @@ namespace Hub_Exercicios
 
         private void Form15_Load(object sender, EventArgs e)
         {
-            label1.Text = Utilizador.nome;
+            label2.Text = Utilizador.nome;
         }
 
         private void button2_Click(object sender, EventArgs e)
