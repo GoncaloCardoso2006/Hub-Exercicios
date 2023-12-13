@@ -32,6 +32,7 @@
             label1 = new Label();
             textBox1 = new TextBox();
             button2 = new Button();
+            label2 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -71,18 +72,30 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = SystemColors.Control;
+            label2.Location = new Point(12, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(114, 15);
+            label2.TabIndex = 5;
+            label2.Text = "Sem sessão iniciada!";
+            // 
             // Form16
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(447, 339);
+            Controls.Add(label2);
             Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(button1);
             Name = "Form16";
             Text = "Form16";
+            Load += Form16_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -93,5 +106,6 @@
         private Label label1;
         private TextBox textBox1;
         private Button button2;
+        private Label label2;
     }
 }

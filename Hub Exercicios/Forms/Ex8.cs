@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic;
+﻿using Hub_Exercicios.Class;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -52,6 +53,11 @@ namespace Hub_Exercicios
             }
 
             textBox1.Text = "Resultado: " + resultado;
+        }
+
+        private void Ex8_Load(object sender, EventArgs e)
+        {
+            label1.Text = Utilizador.nome;
         }
     }
 }

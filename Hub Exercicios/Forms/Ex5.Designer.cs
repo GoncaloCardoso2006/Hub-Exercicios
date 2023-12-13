@@ -35,13 +35,14 @@
             button2 = new Button();
             textBox3 = new TextBox();
             button3 = new Button();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(66, 26);
+            label1.Location = new Point(66, 58);
             label1.Name = "label1";
             label1.Size = new Size(212, 15);
             label1.TabIndex = 0;
@@ -49,7 +50,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(12, 62);
+            textBox1.Location = new Point(12, 90);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(143, 23);
             textBox1.TabIndex = 1;
@@ -57,7 +58,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(205, 62);
+            textBox2.Location = new Point(205, 90);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(150, 23);
             textBox2.TabIndex = 2;
@@ -101,12 +102,23 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = SystemColors.Control;
+            label2.Location = new Point(12, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(114, 15);
+            label2.TabIndex = 7;
+            label2.Text = "Sem sessão iniciada!";
+            // 
             // Ex5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(367, 308);
+            Controls.Add(label2);
             Controls.Add(button3);
             Controls.Add(textBox3);
             Controls.Add(button2);
@@ -130,5 +142,6 @@
         private Button button2;
         private TextBox textBox3;
         private Button button3;
+        private Label label2;
     }
 }

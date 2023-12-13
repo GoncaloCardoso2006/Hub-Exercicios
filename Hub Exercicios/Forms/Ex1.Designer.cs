@@ -32,6 +32,7 @@
             checkBox1 = new CheckBox();
             button1 = new Button();
             button2 = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -74,12 +75,24 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(114, 15);
+            label1.TabIndex = 4;
+            label1.Text = "Sem sessão iniciada!";
+            label1.Click += label1_Click_1;
+            // 
             // Ex1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(341, 261);
+            Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(checkBox1);
@@ -97,5 +110,6 @@
         private CheckBox checkBox1;
         private Button button1;
         private Button button2;
+        private Label label1;
     }
 }

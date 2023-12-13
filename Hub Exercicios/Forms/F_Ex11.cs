@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hub_Exercicios.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,6 +43,11 @@ namespace Hub_Exercicios
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {}
+        { }
+
+        private void F_Ex11_Load(object sender, EventArgs e)
+        {
+            label1.Text = Utilizador.nome;
+        }
     }
 }

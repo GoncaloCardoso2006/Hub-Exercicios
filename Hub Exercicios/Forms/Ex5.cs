@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hub_Exercicios.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,7 @@ namespace Hub_Exercicios
 
         private void Form6_Load(object sender, EventArgs e)
         {
-             
+            label1.Text = Utilizador.nome;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

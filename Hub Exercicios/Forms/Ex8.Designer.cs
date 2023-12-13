@@ -32,6 +32,7 @@
             comboBox1 = new ComboBox();
             textBox1 = new TextBox();
             button2 = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -70,18 +71,30 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(114, 15);
+            label1.TabIndex = 5;
+            label1.Text = "Sem sessão iniciada!";
+            // 
             // Ex8
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(379, 329);
+            Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(comboBox1);
             Controls.Add(button1);
             Name = "Ex8";
             Text = "Ex8";
+            Load += Ex8_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -92,5 +105,6 @@
         private ComboBox comboBox1;
         private TextBox textBox1;
         private Button button2;
+        private Label label1;
     }
 }

@@ -34,12 +34,13 @@
             groupBox1 = new GroupBox();
             textBox1 = new TextBox();
             button2 = new Button();
+            label1 = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(43, 32);
+            button1.Location = new Point(39, 54);
             button1.Name = "button1";
             button1.Size = new Size(108, 41);
             button1.TabIndex = 0;
@@ -101,12 +102,23 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(114, 15);
+            label1.TabIndex = 6;
+            label1.Text = "Sem sessão iniciada!";
+            // 
             // Ex2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(394, 215);
+            Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(groupBox1);
@@ -128,5 +140,6 @@
         private GroupBox groupBox1;
         private TextBox textBox1;
         private Button button2;
+        private Label label1;
     }
 }

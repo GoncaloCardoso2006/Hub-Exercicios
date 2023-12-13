@@ -87,7 +87,7 @@ namespace Hub_Exercicios
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        { }
+        { label1.Text = Utilizador.nome; }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         { }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hub_Exercicios.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,11 @@ namespace Hub_Exercicios
             Hub frm_1 = new Hub();
             frm_1.Show();
             this.Close();
+        }
+
+        private void F_Ex12_Load(object sender, EventArgs e)
+        {
+            label1.Text = Utilizador.nome;
         }
     }
 }

@@ -38,6 +38,7 @@
             label2 = new Label();
             label3 = new Label();
             button3 = new Button();
+            label4 = new Label();
             SuspendLayout();
             // 
             // listBox1
@@ -72,7 +73,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(66, 77);
+            textBox1.Location = new Point(79, 108);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(130, 23);
             textBox1.TabIndex = 3;
@@ -80,14 +81,14 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(74, 48);
+            textBox2.Location = new Point(87, 79);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(130, 23);
             textBox2.TabIndex = 4;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(109, 19);
+            textBox3.Location = new Point(122, 50);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(130, 23);
             textBox3.TabIndex = 5;
@@ -97,7 +98,7 @@
             // 
             label1.AutoSize = true;
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(21, 22);
+            label1.Location = new Point(34, 53);
             label1.Name = "label1";
             label1.Size = new Size(82, 15);
             label1.TabIndex = 6;
@@ -107,7 +108,7 @@
             // 
             label2.AutoSize = true;
             label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(21, 51);
+            label2.Location = new Point(34, 82);
             label2.Name = "label2";
             label2.Size = new Size(47, 15);
             label2.TabIndex = 7;
@@ -117,7 +118,7 @@
             // 
             label3.AutoSize = true;
             label3.ForeColor = SystemColors.Control;
-            label3.Location = new Point(21, 80);
+            label3.Location = new Point(34, 111);
             label3.Name = "label3";
             label3.Size = new Size(39, 15);
             label3.TabIndex = 8;
@@ -133,12 +134,24 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.ForeColor = SystemColors.Control;
+            label4.Location = new Point(12, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(114, 15);
+            label4.TabIndex = 10;
+            label4.Text = "Sem sessão iniciada!";
+            label4.Click += label4_Click;
+            // 
             // Ex6
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(348, 323);
+            Controls.Add(label4);
             Controls.Add(button3);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -168,5 +181,6 @@
         private Label label2;
         private Label label3;
         private Button button3;
+        private Label label4;
     }
 }

@@ -31,5 +31,10 @@ namespace Hub_Exercicios
             Class_VG.resultado = num1 + Class_VG.resultado;
             textBox1.Text = Convert.ToString(Class_VG.resultado);
         }
+
+        private void Form16_Load(object sender, EventArgs e)
+        {
+            label1.Text = Utilizador.nome;
+        }
     }
 }

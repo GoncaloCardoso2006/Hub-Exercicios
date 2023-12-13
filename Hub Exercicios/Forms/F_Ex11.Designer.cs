@@ -33,6 +33,7 @@
             corETipoDeLetraToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
             button1 = new Button();
+            label2 = new Label();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             // corETipoDeLetraToolStripMenuItem
             // 
             corETipoDeLetraToolStripMenuItem.Name = "corETipoDeLetraToolStripMenuItem";
-            corETipoDeLetraToolStripMenuItem.Size = new Size(180, 22);
+            corETipoDeLetraToolStripMenuItem.Size = new Size(171, 22);
             corETipoDeLetraToolStripMenuItem.Text = "Cor e tipo de letra.";
             corETipoDeLetraToolStripMenuItem.Click += corETipoDeLetraToolStripMenuItem_Click;
             // 
@@ -82,18 +83,30 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = SystemColors.Control;
+            label2.Location = new Point(12, 159);
+            label2.Name = "label2";
+            label2.Size = new Size(114, 15);
+            label2.TabIndex = 5;
+            label2.Text = "Sem sessão iniciada!";
+            // 
             // F_Ex11
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(320, 183);
+            Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "F_Ex11";
             Text = "Ex11";
+            Load += F_Ex11_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -107,5 +120,6 @@
         private ToolStripMenuItem corETipoDeLetraToolStripMenuItem;
         private Label label1;
         private Button button1;
+        private Label label2;
     }
 }

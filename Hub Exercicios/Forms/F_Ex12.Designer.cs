@@ -30,6 +30,7 @@
         {
             button1 = new Button();
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -53,16 +54,28 @@
             label1.Text = "Manutenção";
             label1.Click += label1_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = SystemColors.Control;
+            label2.Location = new Point(12, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(114, 15);
+            label2.TabIndex = 5;
+            label2.Text = "Sem sessão iniciada!";
+            // 
             // F_Ex12
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(421, 336);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button1);
             Name = "F_Ex12";
             Text = "Ex12";
+            Load += F_Ex12_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -71,5 +84,6 @@
 
         private Button button1;
         private Label label1;
+        private Label label2;
     }
 }
